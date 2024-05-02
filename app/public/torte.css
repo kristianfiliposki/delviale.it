@@ -1,0 +1,168 @@
+.presentazione{
+    object-fit: cover;
+}
+
+.wrapper{
+    padding-top: 4%;
+}
+
+
+.central{overflow: auto;}
+
+.first{
+    background-image: url('/public/img/Gelato-limone.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+.second{
+    background-image: url('/public/img/gelato-stracciatella.jpeg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+.third
+{
+    background-image: url('/public/img/Coppetta-mango.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.register{
+    border: 3px solid black;
+    background-color: white;
+}
+
+
+footer a{
+    flex-direction: column;
+    align-items: center;
+    color: white !important;
+}
+
+
+
+/* food-platform */
+.telefoni{
+    margin:0 0.5em;
+    font-size: 1em;
+}
+.account-plus{
+    background-image: url('/public/img/account.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.account-button{
+    border-radius: 12px;
+    padding: 2em;
+}
+.number>*{
+    font-size: 3em;
+}
+
+a{
+    flex-direction: column;
+    align-items: center;}
+.food-logo{
+    margin-bottom: 10%;
+    width: 100%;
+    /* height: 2.4em; */
+    border-radius: 60%;
+    aspect-ratio: 1;
+}
+.food-logo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+
+}
+
+.title-n{
+    font-weight: 700;
+}
+
+.partner{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partner .box {
+    margin: 5%;
+    border-radius: 5%;
+    padding: 5%;
+}
+a{
+   
+
+
+    text-decoration: none;
+    }
+
+.food-platform{
+    padding: 3%;
+}
+
+.numbers{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        background: rgb(208,254,222);
+        background-color: #929292;
+        background: linear-gradient(58deg, rgba(220,234,255,0.9878545168067226) 38%, rgba(240,247,255,1) 53%, rgba(220,207,210,0.3) 67%, rgba(230,210,220,0.3) 78%);
+        font-family: "Pacifico", cursive;
+        font-weight: 200;
+        font-style: normal;
+
+    }
+
+@media screen and (max-width: 1130px) {
+        .number>*{
+        color: grey;
+        font-size: 2em;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+    .numbers div{
+    }
+}
+@media screen and (max-width: 650px) {
+    .food-platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+    .number{
+        font-size: 0.7em;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .food-platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+    .number{
+        font-size: 0.5em;
+    }
+
+}
+/* food-platform */

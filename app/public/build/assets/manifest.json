@@ -1,0 +1,61 @@
+{
+  "public/img/Coffe-machine.jpeg": {
+    "file": "assets/Coffe-machine-CxEe9Ao4.jpeg",
+    "src": "public/img/Coffe-machine.jpeg"
+  },
+  "public/img/account.png": {
+    "file": "assets/account-V5PPQR0e.png",
+    "src": "public/img/account.png"
+  },
+  "public/img/entra.jpeg": {
+    "file": "assets/entra-CW7Tujj2.jpeg",
+    "src": "public/img/entra.jpeg"
+  },
+  "public/img/entrata.jpeg": {
+    "file": "assets/entrata-Zlj5Kduz.jpeg",
+    "src": "public/img/entrata.jpeg"
+  },
+  "public/img/gelato-vetrina.png": {
+    "file": "assets/gelato-vetrina-BXPmqB3W.png",
+    "src": "public/img/gelato-vetrina.png"
+  },
+  "public/img/prep-1.jpeg": {
+    "file": "assets/prep-1-lnL9B-U9.jpeg",
+    "src": "public/img/prep-1.jpeg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-ChVP5XLV.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DAbl03Z1.css"
+    ],
+    "assets": [
+      "assets/gelato-vetrina-BXPmqB3W.png",
+      "assets/prep-1-lnL9B-U9.jpeg",
+      "assets/entrata-Zlj5Kduz.jpeg",
+      "assets/Coffe-machine-CxEe9Ao4.jpeg",
+      "assets/entra-CW7Tujj2.jpeg",
+      "assets/account-V5PPQR0e.png"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-D-sv12UV.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/app.js": {
+    "file": "app.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "/resources/scss/app.scss"
+    ]
+  },
+  "resources/scss/app.scss": {
+    "file": "app.scss",
+    "src": "/resources/scss/app.scss",
+    "isEntry": true
+  }
+}

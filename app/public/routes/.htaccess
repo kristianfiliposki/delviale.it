@@ -1,0 +1,28 @@
+# Abilitare il modulo di riscrittura
+<IfModule mod_rewrite.c>
+
+  # Impostare la base di riscrittura (modifica se necessario)
+  RewriteBase /
+
+  # Reindirizzare le barre finali se non si tratta di una cartella
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} (.+)/$
+  RewriteRule ^ %1 [L,R=301]
+
+  # Inviare le richieste al front controller (modifica se necessario)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
+
+</IfModule>
+
+# Opzioni aggiuntive (facoltativo)
+
+# Disattivare l'elenco dei file
+Options -Indexes
+
+# Proteggere i file sensibili (facoltativo)
+<FilesMatch "\.(htaccess|ini|php|js|css)$">
+  Order deny,allow
+  Deny from all
+</FilesMatch>

@@ -1,0 +1,204 @@
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+
+.title h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.box-presentazione{
+    display: flex;
+}
+
+.presentazione{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 1em;
+
+}
+.container-section{width: calc(100% / 3);}
+
+h1{
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.wrapper{
+    padding-top: 10%;
+}
+
+
+footer a{
+    flex-direction: column;
+    align-items: center;
+    color: white !important;
+}
+
+a{
+    flex-direction: column;
+    align-items: center;}
+
+.box{
+    width: calc(100% / 3);
+    height: 100%;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.central{overflow: auto;}
+
+
+
+.mini-box{
+    border: 4px solid black;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.register{
+    border: 3px solid black;
+    background-color: white;
+}
+
+/* section */
+.name{font-size: 60%;}
+.telefoni{
+    margin:0 0.5em;
+    font-size: 1em;
+}
+.account-plus{
+    background-image: url('/public/img/account.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.account-button{
+    border-radius: 12px;
+    padding: 2em;
+}
+
+a{
+    flex-direction: column;
+    align-items: center;}
+    .number>*{
+        color: grey;
+    }
+.food-logo{
+    margin-bottom: 10%;
+    width: 100%;
+    /* height: 2.4em; */
+    border-radius: 60%;
+    aspect-ratio: 1;
+}
+.food-logo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+
+}
+
+.title-n{
+    font-weight: 700;
+}
+
+.partner{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partner .box {
+    margin: 5%;
+    border-radius: 5%;
+    padding: 5%;
+}
+a{
+   
+
+
+    text-decoration: none;
+    }
+
+.food-platform{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        background: rgb(208,254,222);
+        background-color: #929292;
+        background: linear-gradient(58deg, rgba(220,234,255,0.9878545168067226) 38%, rgba(240,247,255,1) 53%, rgba(220,207,210,0.3) 67%, rgba(230,210,220,0.3) 78%);
+        font-family: "Pacifico", cursive;
+        font-weight: 200;
+        font-style: normal;
+
+    }
+
+@media screen and (min-width: 919px) {
+        .number>*{
+        color: grey;
+        font-size: 1.6em;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+}
+@media screen and (max-width: 1130px) {
+
+    a{
+    
+    border: 0;
+    text-decoration: none;
+    }
+}
+@media screen and (max-width: 1130px) {
+
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .food-platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+ 
+
+}
+@media screen and (max-width: 480px) {
+    .food-platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+
+    border: 0;
+    text-decoration: none;
+    }
+ 
+
+}
+
