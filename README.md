@@ -1,5 +1,12 @@
 Ciao ragazzi!
+
+
+
 Benvenuto sul progetto di delviale.it
+
+
+
+
 per far partire l'app abbiamo bisogno di:{
                                           -node.js,
                                           -vue.js,
