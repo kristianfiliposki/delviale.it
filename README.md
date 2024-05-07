@@ -2,7 +2,7 @@ Ciao ragazzi!
 
 
 
-Benvenuto sul progetto di delviale.it
+Benvenuti sul progetto di delviale.it
 
 
 
